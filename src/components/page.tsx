@@ -88,7 +88,7 @@ export function Page() {
     "params":[publickey2.current?.value]
 }); 
 console.log(Number(data.data.result.value)*100000000)
-setballance(Number(data.data.result.value)*100000000)
+setballance(Number(data.data.result.value.lamports)/1000000000)
 
 
 
